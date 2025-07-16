@@ -1,0 +1,27 @@
+{
+  "name": "pyro_middleware",
+  "version": "1.0.0",
+  "main": "pyro_middleware.js",
+  "scripts": {
+    "dev": "nodemon pyro_middleware.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "@opentelemetry/auto-instrumentations-node": "^0.61.0",
+    "@opentelemetry/exporter-metrics-otlp-grpc": "^0.202.0",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.202.0",
+    "@opentelemetry/sdk-node": "^0.202.0",
+    "@pyroscope/nodejs": "^0.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "nodemon": "^3.1.10",
+    "tsc": "^2.0.4"
+  }
+}
